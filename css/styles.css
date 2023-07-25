@@ -69,8 +69,8 @@ nav ul li a:hover{
 	justify-content: space-between;
 	padding-top: 60px;
 	padding-left: 50px;
-
-		  
+	margin-left: 100px;
+	  
 }
 
 .seccion-content img {
@@ -79,31 +79,31 @@ nav ul li a:hover{
 	margin-top: 30px;
 	}
 .seccion-txt {
+	flex-direction: column;
+	text-align: justify;
+	align-items: center;
 	display: inline-block ;
-	padding: 0px 20px 0px 100px;
+	padding-left: 200px;
 }
 .seccion-txt h1{	
 	font-variant: small-caps;
 	font-size: 50px;
-	text-align: center;
+	padding-left: 100px;
 	color:#363837 ;
 	font-family: letra1, sans-serif;
 }
 .seccion-txt p {
-	text-align: justify;
+	
 	color: #363837;
 	word-spacing: 5px;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 20px;
-	
+	padding-bottom: 40px;
+	width: 60%;
 }
 
 
 
 .seccion2 {
 	margin-top: 80px;
-	padding-top: 60px;
 	padding-left:60px;
 
 }
